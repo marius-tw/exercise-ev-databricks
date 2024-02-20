@@ -144,7 +144,7 @@ display(df)
 
 # MAGIC %md
 # MAGIC ### EXERCISE: Return only StopTransaction Requests
-# MAGIC Recall that we need to calculate the charge time and amount of charged dispensed for stopped transactions. Before we do that, we need a dataframe that only has StopTransaction data. Use the [filter](https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/api/pyspark.sql.DataFrame.filter.html) method to return only data where the `action == "StopTransaction"` and `message_type == 2`.
+# MAGIC Recall that we need to calculate the charge time and amount of charge dispensed for stopped transactions. Before we do that, we need a dataframe that only has StopTransaction data. Use the [filter](https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/api/pyspark.sql.DataFrame.filter.html) method to return only data where the `action == "StopTransaction"` and `message_type == 2`.
 
 # COMMAND ----------
 
